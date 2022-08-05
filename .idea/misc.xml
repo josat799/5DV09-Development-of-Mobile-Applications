@@ -3,16 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/JosefAtoui/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.5312977099236641" />
+        <entry key="..\:/Users/JosefAtoui/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_2.xml" value="0.5312977099236641" />
+        <entry key="..\:/Users/JosefAtoui/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.2875" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/drawable/circle.xml" value="0.1645" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/drawable/dice_solid.xml" value="0.1645" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/drawable/ic_baseline_next_plan_24.xml" value="0.1645" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout-land/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout-land/fragment_rolling.xml" value="0.1" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout-land/fragment_scoring.xml" value="0.28541666666666665" />
         <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout-normal/fragment_game.xml" value="0.1" />
         <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout-small/fragment_game.xml" value="0.6299559471365639" />
         <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout-v26/activity_main.xml" value="0.18697916666666667" />
-        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/content_main.xml" value="0.3578125" />
-        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/dice_container.xml" value="0.1859375" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/content_main.xml" value="0.67" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/dice_container.xml" value="0.33" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/fragment_empty.xml" value="0.28046875" />
         <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/fragment_first.xml" value="0.22" />
-        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/fragment_game.xml" value="0.54375" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/fragment_game.xml" value="0.18" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/fragment_rolling.xml" value="0.1" />
         <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/fragment_scoreboard.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/fragment_scoring.xml" value="0.5" />
         <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/fragment_second.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/pair_item.xml" value="0.5" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/sample_score_board_item.xml" value="0.67" />
+        <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/layout/score_board_item.xml" value="0.54375" />
         <entry key="..\:/Users/JosefAtoui/Documents/Android/Thirty20/app/src/main/res/menu/menu_main.xml" value="0.3578125" />
       </map>
     </option>

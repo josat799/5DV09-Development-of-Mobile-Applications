@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ScoringFragment">
+
+    <Spinner
+        android:id="@+id/scoreCategoriesSpinner"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/availableScoreCategories"
+        android:minHeight="48dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/pairText"
+        style="@android:style/Widget.Material.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pairsText" />
+
+    <ListView
+        android:id="@+id/pairList"
+        style="@android:style/Widget.Material.ListView.DropDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/pair_item" />
+</LinearLayout>
+

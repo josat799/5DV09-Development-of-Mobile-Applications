@@ -3,38 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/rollingNavigation">
 
-    <fragment
-        android:id="@+id/FirstFragment"
-        android:name="se.atoui.thirty20.GameFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_game">
+    <navigation android:id="@+id/rollingNavigation"
+        app:startDestination="@id/rollingFragment">
+        <fragment
+            android:id="@+id/rollingFragment"
+            android:name="se.atoui.thirty20.RollingFragment"
+            android:label="@string/app_name"
+            tools:layout="@layout/fragment_rolling"/>
+        <action
+            android:id="@+id/action_rolling_to_scoringNavigation"
+            app:destination="@id/scoringNavigation"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/scoringNavigation"
+            app:popUpToInclusive="true" />
+    </navigation>
 
+    <navigation android:id="@+id/scoringNavigation"
+        app:startDestination="@id/scoringFragment">
+        <fragment
+            android:id="@+id/scoringFragment"
+            android:name="se.atoui.thirty20.ScoringFragment"
+            android:label="@string/app_name"
+            tools:layout="@layout/fragment_scoring"/>
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
-        <action
-            android:id="@+id/action_FirstFragment_to_scoreboardFragment"
-            app:destination="@id/scoreboardFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/SecondFragment"
-        android:name="se.atoui.thirty20.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/scoreboardFragment"
-        android:name="se.atoui.thirty20.ScoreboardFragment"
-        android:label="@string/scoreboard_fragment_label"
-        tools:layout="@layout/fragment_scoreboard">
-        <action
-            android:id="@+id/action_scoreboardFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
+            android:id="@+id/action_scoring_to_rollingNavigation"
+            app:destination="@id/rollingNavigation"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/rollingNavigation"
+            app:popUpToInclusive="true" />
+    </navigation>
 </navigation>

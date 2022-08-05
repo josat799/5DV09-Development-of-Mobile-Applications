@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Thirty 2.0</string>
+    <string name="app_name">Thirty</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Thirty</string>
@@ -50,4 +50,10 @@
     <string name="roll_dice_hint">Roll Dices (%1$d)</string>
     <string name="current_round">Current Round %1$d</string>
     <string name="current_score">Current Score %1$d</string>
+    <string name="next_round">Next Round</string>
+    <string name="availableScoreCategories">Categories left to score</string>
+    <string name="pairsText">Pairs</string>
+    <string name="pairScore">=%1$d</string>
+    <string name="savePair">Add Pair</string>
+    <string name="save_score_button">Save Score</string>
 </resources>
