@@ -13,9 +13,9 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
-import se.atoui.thirty20.Models.Dice
-import se.atoui.thirty20.Models.GameModel
-import se.atoui.thirty20.Models.States
+import se.atoui.thirty20.models.Dice
+import se.atoui.thirty20.models.GameModel
+import se.atoui.thirty20.models.States
 import se.atoui.thirty20.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -133,14 +133,13 @@ class MainActivity : AppCompatActivity() {
         gameModel.rollsLeft.observe(this) {
             binding.secondAction.text = getString(R.string.roll_dice_hint, it)
         }
-
+        gameModel.canSaveScore.removeObservers(this)
         gameModel.canRoll.observe(this) { canRoll ->
             // Enables/Disables the button if the user is in valid state of rolling
-            binding.secondAction.isEnabled = canRoll && gameModel.currentState.value!! == States.Rolling
-            binding.secondAction.setOnClickListener {
-                gameModel.rollDices()
-            }
-
+            binding.secondAction.isEnabled = canRoll
+        }
+        binding.secondAction.setOnClickListener {
+            gameModel.rollDices()
         }
     }
 

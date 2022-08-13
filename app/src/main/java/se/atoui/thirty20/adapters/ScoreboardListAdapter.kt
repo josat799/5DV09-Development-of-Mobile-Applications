@@ -7,7 +7,7 @@ import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import se.atoui.thirty20.Models.GameModel
+import se.atoui.thirty20.models.GameModel
 import se.atoui.thirty20.R
 
 /*

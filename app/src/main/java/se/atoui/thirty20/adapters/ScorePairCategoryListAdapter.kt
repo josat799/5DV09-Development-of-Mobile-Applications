@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import se.atoui.thirty20.Models.Dices
-import se.atoui.thirty20.Models.GameModel
+import se.atoui.thirty20.models.Dices
+import se.atoui.thirty20.models.GameModel
 import se.atoui.thirty20.R
 
 /*
@@ -17,7 +17,7 @@ class ScorePairCategoryListAdapter(
     private val fragment: Fragment,
     private var data: MutableList<Pair<Boolean, Dices>> = mutableListOf()
 ) :
-    ArrayAdapter<String>(fragment.context!!, R.layout.pair_item) {
+    ArrayAdapter<String>(fragment.requireContext(), R.layout.pair_item) {
 
     private val gameModel: GameModel by fragment.activityViewModels()
 
@@ -55,6 +55,7 @@ class ScorePairCategoryListAdapter(
             }
             innerLayout.addView(imageView)
         }
+
         pairItemView.findViewById<TextView>(R.id.combinedScore).text =
             fragment.requireContext().getString(R.string.pairScore, pairItem.second.getScore())
 

@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import se.atoui.thirty20.Models.GameModel
+import se.atoui.thirty20.models.GameModel
 import se.atoui.thirty20.adapters.ScorePairCategoryListAdapter
 import se.atoui.thirty20.databinding.FragmentScoringBinding
 

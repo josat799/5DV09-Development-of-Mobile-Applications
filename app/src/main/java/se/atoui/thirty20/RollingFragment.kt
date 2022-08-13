@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
 import androidx.fragment.app.activityViewModels
-import se.atoui.thirty20.Models.GameModel
+import se.atoui.thirty20.models.GameModel
 import se.atoui.thirty20.adapters.ScoreboardListAdapter
 import se.atoui.thirty20.databinding.FragmentRollingBinding
 
