@@ -3,8 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.tddd80.calendar.MainActivity">
     <item
+        android:id="toggleCalendarMode"
+        android:icon="@drawable/event_note_48px"
+        android:iconTint="#000000"
+        android:title="@string/toggle_view_mode"
+        app:showAsAction="always" />
+
+    <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:icon="@drawable/settings_48px"
+        android:iconTint="#000000"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:showAsAction="always" />
+
 </menu>
